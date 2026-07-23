@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Look Good. Feel Better. Book in Seconds.',
+    subheading: 'Facials, massage, and aesthetic treatments tailored to you — see real-time availability and book your appointment online, day or night.',
     centerImageSrc: '/images/hero-mockup.webp',
 }

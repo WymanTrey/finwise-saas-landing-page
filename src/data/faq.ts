@@ -1,25 +1,24 @@
 import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: 'Do I need to create an account to book?',
+        answer: 'No account needed — just pick a time, enter your name and phone number, and you\'re booked. You\'ll get a confirmation and reminder automatically.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: 'Can I book a same-day appointment?',
+        answer: 'If there\'s an open slot, yes — the booking calendar shows real-time availability, including same-day openings.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'What is your cancellation policy?',
+        answer: 'We ask for at least 24 hours notice so we can offer the slot to another client. You can reschedule directly from your confirmation text.',
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Do you accept walk-ins?',
+        answer: 'We prioritize booked appointments to keep wait times short, but call ahead and we\'ll always try to fit you in.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'How do I leave a review?',
+        answer: 'You\'ll get a quick link by text after your appointment — takes about 15 seconds.',
     }
 ];

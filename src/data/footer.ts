@@ -7,31 +7,25 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Facials, massage, and aesthetic treatments in a calm, welcoming space.",
     quickLinks: [
         {
-            text: "Features",
+            text: "Why Book Online",
             url: "#features"
         },
         {
-            text: "Pricing",
+            text: "Services",
             url: "#pricing"
         },
         {
-            text: "Testimonials",
+            text: "Reviews",
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'hello@bloomaestheticsspa.com',
+    telephone: '+1 (701) 555-0147',
     socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
         facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
         instagram: 'https://www.instagram.com',
     }
 }

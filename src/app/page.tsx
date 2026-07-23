@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing/Pricing";
 import FAQ from "@/components/FAQ";
-import Logos from "@/components/Logos";
 import Benefits from "@/components/Benefits/Benefits";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
@@ -13,14 +12,13 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Hero />
-      <Logos />
       <Container>
         <Benefits />
 
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Services & Packages"
+          description="A few of our most-booked treatments — see the full menu when you book."
         >
           <Pricing />
         </Section>
@@ -28,7 +26,7 @@ const HomePage: React.FC = () => {
         <Section
           id="testimonials"
           title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
+          description="Real feedback from clients who booked online."
         >
           <Testimonials />
         </Section>

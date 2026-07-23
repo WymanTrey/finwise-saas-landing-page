@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'Bloom Aesthetics & Spa',
+    siteUrl: 'https://finwise-saas-landing-page-eight-orpin.vercel.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Bloom Aesthetics & Spa | Book Online',
+        description: 'Facials, massage, and aesthetic treatments in a calm, welcoming space. Book your appointment online in seconds.',
     },
     language: 'en-us',
     locale: 'en-US',

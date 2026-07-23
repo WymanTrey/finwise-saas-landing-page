@@ -1,23 +1,22 @@
 import { ITestimonial } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
     {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
+        name: 'Sarah M.',
+        role: 'Booked online in under a minute',
+        message: `I was able to book my facial at 10pm from my couch — no calling, no waiting for someone to pick up. Showed up and it was exactly the time I picked.`,
         avatar: '/images/testimonial-1.webp',
     },
     {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
+        name: 'Danielle R.',
+        role: 'Regular client since 2024',
+        message: `The reminder text and easy rebooking link means I actually keep my appointments now instead of forgetting. Small thing, big difference.`,
         avatar: '/images/testimonial-2.webp',
     },
     {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
+        name: 'Amanda K.',
+        role: 'First-time visitor',
+        message: `Found them online, booked in a couple taps, and the whole thing felt easy before I even walked in the door.`,
         avatar: '/images/testimonial-3.webp',
     },
 ];

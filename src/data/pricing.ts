@@ -2,36 +2,32 @@ import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
     {
-        name: 'Starter',
-        price: 29,
+        name: 'Signature Facial',
+        price: '$120',
         features: [
-            'Basic cloud integration',
-            'Up to 5 team members',
-            '20GB storage',
-            'Email support',
+            '60-minute custom facial',
+            'Skin analysis included',
+            'Take-home care guide',
         ],
     },
     {
-        name: 'Pro',
-        price: 99,
+        name: 'Glow & Renew Package',
+        price: '$249',
         features: [
-            'Advanced cloud integration',
-            'Up to 20 team members',
-            '100GB storage',
-            'Priority email & phone support',
-            'Advanced analytics',
+            'Facial + microdermabrasion',
+            'Includes LED light therapy',
+            'Complimentary follow-up consult',
+            'Most booked package',
         ],
     },
     {
-        name: 'Enterprise',
-        price: 'Custom',
+        name: 'VIP Membership',
+        price: '$89',
         features: [
-            'Full cloud integration',
-            'Unlimited team members',
-            'Unlimited storage',
-            '24/7 dedicated support',
-            'Custom solutions',
-            'On-site training',
+            'One treatment per month',
+            '15% off all add-ons',
+            'Priority booking access',
+            'Member-only promotions',
         ],
     },
 ]

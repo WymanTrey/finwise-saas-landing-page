@@ -1,22 +1,22 @@
-import { BsBarChartFill, BsFillStarFill } from "react-icons/bs";
-import { PiGlobeFill } from "react-icons/pi";
+import { BsFillStarFill, BsCalendarCheckFill } from "react-icons/bs";
+import { FiUsers } from "react-icons/fi";
 
 import { IStats } from "@/types";
 
 export const stats: IStats[] = [
     {
-        title: "20M+",
-        icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Transactions processed securely every day, providing real-time insights."
+        title: "500+",
+        icon: <FiUsers size={34} className="text-blue-500" />,
+        description: "Appointments booked online by clients, without a single phone call."
     },
     {
-        title: "5.0",
+        title: "4.9",
         icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "Star rating, consistently maintained across app stores."
+        description: "Average Google rating, built automatically after every visit."
     },
     {
-        title: "200+ ",
-        icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Financial Institutions, seamlessly integrated, so you can manage all accounts."
+        title: "24/7",
+        icon: <BsCalendarCheckFill size={34} className="text-green-600" />,
+        description: "Online booking availability — book any time, day or night."
     }
 ];
