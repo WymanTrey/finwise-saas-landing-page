@@ -37,8 +37,8 @@ const Hero: React.FC = () => {
                     sizes="(max-width: 768px) 100vw, 384px"
                     priority={true}
                     unoptimized={true}
-                    alt="app mockup"
-                    className='relative mt-12 md:mt-16 mx-auto z-10'
+                    alt="Esthetician performing a facial treatment"
+                    className='relative mt-12 md:mt-16 mx-auto z-10 rounded-2xl object-cover'
                 />
             </div>
         </section>
