@@ -17,7 +17,7 @@ const CTA: React.FC = () => {
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
 
                         <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4">
-                        <Link href={ctaDetails.bookingUrl} className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors font-semibold">
+                        <Link href={ctaDetails.bookingUrl} target="_blank" rel="noopener noreferrer" className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors font-semibold">
                             Book Your Appointment
                         </Link>
                         </div>
